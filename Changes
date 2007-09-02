@@ -1,0 +1,6 @@
+Revision history for Perl extension Config::BuildHelper.
+
+0.01  Wed Aug 15 13:43:58 2007
+	- original version; created by h2xs 1.23 with options
+		-XAn Config::BuildHelper
+
