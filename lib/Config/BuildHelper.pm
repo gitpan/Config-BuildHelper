@@ -1,6 +1,6 @@
 package Config::BuildHelper;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Data::Classifier);
 
@@ -151,6 +151,19 @@ Config::BuildHelper - A tool to help build config files
   
   	print "$_->{model} ", join(' ', $result->config_list), "\n";
   }
+
+__END__
+
+Which will output:
+
+1: 325i CHECK_SPARK_PLUGS ROTATE_TIRES CHECK_BRAKES
+
+2: 535d ROTATE_TIRES CHECK_BRAKES CHECK_GLOW_PLUGS
+
+3: M3 CHECK_SPARK_PLUGS ROTATE_TIRES CHECK_BRAKES
+
+4: R1200RT CHECK_SPARK_PLUGS CHECK_BRAKES CHECK_REAR_TIRE_ALIGNMENT
+
 
 =head1 OVERVIEW
 
